@@ -9,6 +9,8 @@ FROM debian:latest
 
 MAINTAINER hihouhou < hihouhou@hihouhou.com >
 
+ENV STATSD_VERSION v0.7.2
+
 # Update & install packages for fetching statsd
 RUN apt-get update && \
     apt-get install -y git
