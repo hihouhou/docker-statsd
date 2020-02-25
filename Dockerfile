@@ -9,7 +9,7 @@ FROM debian:latest
 
 MAINTAINER hihouhou < hihouhou@hihouhou.com >
 
-ENV STATSD_VERSION v0.8.5
+ENV STATSD_VERSION v0.8.6
 
 # Update & install packages for fetching statsd
 RUN apt-get update && \
