@@ -9,7 +9,7 @@ FROM debian:latest
 
 LABEL org.opencontainers.image.authors="hihouhou < hihouhou@hihouhou.com >"
 
-ENV STATSD_VERSION v0.10.2
+ENV STATSD_VERSION=v0.10.2
 
 # Update & install packages for fetching statsd
 RUN apt-get update && \
